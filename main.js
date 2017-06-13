@@ -72,7 +72,7 @@ function avg(x, y, z) {
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // A:
-function getLength("s") {
+function getLength(s) {
   var length = 0;
   while (s[length] !== undefined)
     length++;
@@ -102,7 +102,7 @@ function greaterThan(x,y) {
 // is the parameter that was passed in.
 // A:
 function greet("name") {
-  return ("Hello" + name)
+  return ("Hello " + name)
 }
 
 
@@ -114,3 +114,6 @@ function greet("name") {
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // A:
+function madlib ("first", "second", "third", "home") {
+  return ("After you hit the ball, you round " + first + "then " + second + "then " + third + "then " + home)
+}
